@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body{
+	width: 100%;
+	font-family: 'Pontano Sans', sans-serif;	
+}
+
+h2, h3{
+	text-align: center;
+}
+
+header{
+	padding: 30px 30%;
+	background-color: #37499F;
+	color: white;	
+}
+.reporting{
+		
+}
+.sending {
+	
+	background-color: #6A7CD0;	
+}
+.sending h3{
+	color: white;
+}
+.btn{
+	width:150px;
+	padding: 10px;
+	background-color: #E9B63B;
+	color: #37499F;
+}
+
+
+table{
+	margin:auto;
+	border-collapse:collapse;
+}
+td, th {
+	padding: 5px;
+	border: 2px solid black;
+}
+.num{
+	text-align: right;
+}
+th{
+	background-color: #37499F;
+	color: white;
+}
+.rowcolor{
+	background-color: #6A7CD0;
+}
+.totalsum{
+	font-weight: 900;
+}
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #37499F;
+	margin-top: 20px;
+	color: white;
+}
+
+@media(min-width: 1024px){
+	body{
+		text-align: center;
+	}
+	.reporting{
+		display:inline-block;
+		vertical-align: top;
+		width: 60%;
+		margin-top:20px;
+	}
+	.sending{		
+		display:inline-block;
+		vertical-align: top;
+		padding: 35px;		
+		margin-top:20px;
+		
+	}
+}

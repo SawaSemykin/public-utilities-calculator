@@ -1,0 +1,60 @@
+/* https://colorscheme.ru/#3-21Tw0w0w0w0
+https://colorscheme.ru/#0.21Tw0w0w0w0
+
+https://colorscheme.ru/#3j21TnTP.ubwV
+
+https://colorscheme.ru/#3S21TnTtdvywt
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 1.2rem;
+}
+h3{
+	text-align: center;
+}
+.form-pos{
+	height: 150px;
+	
+	position: relative;
+	background-color: #37499F;
+	margin: 10px 20px;	
+}
+
+.btn{
+	width:150px;
+	padding: 10px;
+	background-color: #122168;
+	color: white;
+}
+
+form{
+	padding: 10px;
+	margin: 2% 20px;
+	border: 3px dashed #122168;
+	position: absolute;
+	top: 0;	
+	right:3%;
+	background-color: white;
+	text-align: center;
+}
+
+input:focus{
+	background-color: #F4D791;
+	
+}
+
+.usage{
+	background-color: #F4D791;
+	margin: 10px 20px;
+}
+
+footer{	
+	background-color: #3D4778;
+	color: white;
+	text-align: center;
+	margin: 10px 20px;
+	padding: 20px;
+}
